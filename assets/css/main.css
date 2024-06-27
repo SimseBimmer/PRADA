@@ -1,6 +1,36 @@
 /* CSS */
-@import url();
-@import url();
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
 html{
     scroll-behavior: smooth;
 }
+
+
+body{
+    font-family: "Archivo", sans-serif;
+    font-weight: 200;
+    margin: 0;
+}
+
+/* #region HEADER */
+.global-heaeder{
+
+}
+
+.global-heaeder div{
+    border: .01rem solid #ddd;
+    border-right: none;
+    border-left: none;
+    padding: 1rem;
+}
+
+.global-heaeder div:first-of-type{
+    border: .01rem solid #ddd;
+    border-right: none;
+    border-left: none;
+    padding: 1rem;
+}
+
+
+
+/* #endregion HEADER */
